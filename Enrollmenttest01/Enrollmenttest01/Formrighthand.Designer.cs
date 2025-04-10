@@ -29,22 +29,32 @@
         private void InitializeComponent()
         {
             groupBoxfprighthand = new GroupBox();
-            buttonbackR = new Button();
+            buttonbackrighthand = new Button();
             groupBoxrightlittle = new GroupBox();
             groupBoxrightring = new GroupBox();
             groupBoxrightmiddle = new GroupBox();
             groupBoxrightindex = new GroupBox();
             groupBoxrightthumb = new GroupBox();
-            button1 = new Button();
+            buttonrightthumbscan = new Button();
             textBoxrighthandR = new TextBox();
             textBoxlefthandR = new TextBox();
+            buttonrightindexscan = new Button();
+            buttonrightmiddlescan = new Button();
+            buttonrightringscan = new Button();
+            buttonrightlittlescan = new Button();
+            buttonsaverighthand = new Button();
             groupBoxfprighthand.SuspendLayout();
+            groupBoxrightlittle.SuspendLayout();
+            groupBoxrightring.SuspendLayout();
+            groupBoxrightmiddle.SuspendLayout();
+            groupBoxrightindex.SuspendLayout();
             groupBoxrightthumb.SuspendLayout();
             SuspendLayout();
             // 
             // groupBoxfprighthand
             // 
-            groupBoxfprighthand.Controls.Add(buttonbackR);
+            groupBoxfprighthand.Controls.Add(buttonsaverighthand);
+            groupBoxfprighthand.Controls.Add(buttonbackrighthand);
             groupBoxfprighthand.Controls.Add(groupBoxrightlittle);
             groupBoxfprighthand.Controls.Add(groupBoxrightring);
             groupBoxfprighthand.Controls.Add(groupBoxrightmiddle);
@@ -59,69 +69,73 @@
             groupBoxfprighthand.TabStop = false;
             groupBoxfprighthand.Text = "Fingerprints";
             // 
-            // buttonbackR
+            // buttonbackrighthand
             // 
-            buttonbackR.Location = new Point(351, 372);
-            buttonbackR.Name = "buttonbackR";
-            buttonbackR.Size = new Size(75, 23);
-            buttonbackR.TabIndex = 6;
-            buttonbackR.Text = "ย้อนกลับ";
-            buttonbackR.UseVisualStyleBackColor = true;
+            buttonbackrighthand.Location = new Point(392, 397);
+            buttonbackrighthand.Name = "buttonbackrighthand";
+            buttonbackrighthand.Size = new Size(75, 23);
+            buttonbackrighthand.TabIndex = 6;
+            buttonbackrighthand.Text = "back";
+            buttonbackrighthand.UseVisualStyleBackColor = true;
             // 
             // groupBoxrightlittle
             // 
-            groupBoxrightlittle.Location = new Point(439, 225);
+            groupBoxrightlittle.Controls.Add(buttonrightlittlescan);
+            groupBoxrightlittle.Location = new Point(320, 225);
             groupBoxrightlittle.Name = "groupBoxrightlittle";
-            groupBoxrightlittle.Size = new Size(137, 108);
+            groupBoxrightlittle.Size = new Size(137, 159);
             groupBoxrightlittle.TabIndex = 3;
             groupBoxrightlittle.TabStop = false;
             groupBoxrightlittle.Text = "นิ้วก้อย";
             // 
             // groupBoxrightring
             // 
-            groupBoxrightring.Location = new Point(202, 225);
+            groupBoxrightring.Controls.Add(buttonrightringscan);
+            groupBoxrightring.Location = new Point(136, 225);
             groupBoxrightring.Name = "groupBoxrightring";
-            groupBoxrightring.Size = new Size(137, 108);
+            groupBoxrightring.Size = new Size(137, 159);
             groupBoxrightring.TabIndex = 5;
             groupBoxrightring.TabStop = false;
             groupBoxrightring.Text = "นิ้วนาง";
             // 
             // groupBoxrightmiddle
             // 
-            groupBoxrightmiddle.Location = new Point(559, 60);
+            groupBoxrightmiddle.Controls.Add(buttonrightmiddlescan);
+            groupBoxrightmiddle.Location = new Point(508, 60);
             groupBoxrightmiddle.Name = "groupBoxrightmiddle";
-            groupBoxrightmiddle.Size = new Size(137, 108);
+            groupBoxrightmiddle.Size = new Size(137, 159);
             groupBoxrightmiddle.TabIndex = 4;
             groupBoxrightmiddle.TabStop = false;
             groupBoxrightmiddle.Text = "นิ้วกลาง";
             // 
             // groupBoxrightindex
             // 
-            groupBoxrightindex.Location = new Point(323, 60);
+            groupBoxrightindex.Controls.Add(buttonrightindexscan);
+            groupBoxrightindex.Location = new Point(320, 60);
             groupBoxrightindex.Name = "groupBoxrightindex";
-            groupBoxrightindex.Size = new Size(137, 108);
+            groupBoxrightindex.Size = new Size(137, 159);
             groupBoxrightindex.TabIndex = 3;
             groupBoxrightindex.TabStop = false;
             groupBoxrightindex.Text = "นิ้วชี้";
             // 
             // groupBoxrightthumb
             // 
-            groupBoxrightthumb.Controls.Add(button1);
-            groupBoxrightthumb.Location = new Point(75, 60);
+            groupBoxrightthumb.Controls.Add(buttonrightthumbscan);
+            groupBoxrightthumb.Location = new Point(136, 60);
             groupBoxrightthumb.Name = "groupBoxrightthumb";
-            groupBoxrightthumb.Size = new Size(137, 108);
+            groupBoxrightthumb.Size = new Size(137, 159);
             groupBoxrightthumb.TabIndex = 2;
             groupBoxrightthumb.TabStop = false;
             groupBoxrightthumb.Text = "นิ้วโป้ง";
             // 
-            // button1
+            // buttonrightthumbscan
             // 
-            button1.Location = new Point(27, 44);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            buttonrightthumbscan.Location = new Point(29, 44);
+            buttonrightthumbscan.Name = "buttonrightthumbscan";
+            buttonrightthumbscan.Size = new Size(75, 48);
+            buttonrightthumbscan.TabIndex = 0;
+            buttonrightthumbscan.Text = "Scan";
+            buttonrightthumbscan.UseVisualStyleBackColor = true;
             // 
             // textBoxrighthandR
             // 
@@ -142,6 +156,51 @@
             textBoxlefthandR.Text = "มือซ้าย";
             textBoxlefthandR.TextAlign = HorizontalAlignment.Center;
             // 
+            // buttonrightindexscan
+            // 
+            buttonrightindexscan.Location = new Point(28, 44);
+            buttonrightindexscan.Name = "buttonrightindexscan";
+            buttonrightindexscan.Size = new Size(75, 48);
+            buttonrightindexscan.TabIndex = 1;
+            buttonrightindexscan.Text = "Scan";
+            buttonrightindexscan.UseVisualStyleBackColor = true;
+            // 
+            // buttonrightmiddlescan
+            // 
+            buttonrightmiddlescan.Location = new Point(34, 44);
+            buttonrightmiddlescan.Name = "buttonrightmiddlescan";
+            buttonrightmiddlescan.Size = new Size(75, 48);
+            buttonrightmiddlescan.TabIndex = 2;
+            buttonrightmiddlescan.Text = "Scan";
+            buttonrightmiddlescan.UseVisualStyleBackColor = true;
+            // 
+            // buttonrightringscan
+            // 
+            buttonrightringscan.Location = new Point(29, 47);
+            buttonrightringscan.Name = "buttonrightringscan";
+            buttonrightringscan.Size = new Size(75, 48);
+            buttonrightringscan.TabIndex = 3;
+            buttonrightringscan.Text = "Scan";
+            buttonrightringscan.UseVisualStyleBackColor = true;
+            // 
+            // buttonrightlittlescan
+            // 
+            buttonrightlittlescan.Location = new Point(28, 47);
+            buttonrightlittlescan.Name = "buttonrightlittlescan";
+            buttonrightlittlescan.Size = new Size(75, 48);
+            buttonrightlittlescan.TabIndex = 4;
+            buttonrightlittlescan.Text = "Scan";
+            buttonrightlittlescan.UseVisualStyleBackColor = true;
+            // 
+            // buttonsaverighthand
+            // 
+            buttonsaverighthand.Location = new Point(309, 397);
+            buttonsaverighthand.Name = "buttonsaverighthand";
+            buttonsaverighthand.Size = new Size(75, 23);
+            buttonsaverighthand.TabIndex = 7;
+            buttonsaverighthand.Text = "save";
+            buttonsaverighthand.UseVisualStyleBackColor = true;
+            // 
             // Formrighthand
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -152,6 +211,10 @@
             Text = "Right Hand";
             groupBoxfprighthand.ResumeLayout(false);
             groupBoxfprighthand.PerformLayout();
+            groupBoxrightlittle.ResumeLayout(false);
+            groupBoxrightring.ResumeLayout(false);
+            groupBoxrightmiddle.ResumeLayout(false);
+            groupBoxrightindex.ResumeLayout(false);
             groupBoxrightthumb.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -159,14 +222,19 @@
         #endregion
 
         private GroupBox groupBoxfprighthand;
-        private Button buttonbackR;
+        private Button buttonbackrighthand;
         private GroupBox groupBoxrightlittle;
         private GroupBox groupBoxrightring;
         private GroupBox groupBoxrightmiddle;
         private GroupBox groupBoxrightindex;
         private GroupBox groupBoxrightthumb;
-        private Button button1;
+        private Button buttonrightthumbscan;
         private TextBox textBoxrighthandR;
         private TextBox textBoxlefthandR;
+        private Button buttonrightlittlescan;
+        private Button buttonrightringscan;
+        private Button buttonrightmiddlescan;
+        private Button buttonrightindexscan;
+        private Button buttonsaverighthand;
     }
 }

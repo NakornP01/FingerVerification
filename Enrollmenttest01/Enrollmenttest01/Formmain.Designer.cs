@@ -41,7 +41,6 @@
             textBoxphone = new TextBox();
             textBoxsurname = new TextBox();
             textBoxname = new TextBox();
-            linkLabel1 = new LinkLabel();
             labelsurname = new Label();
             labelname = new Label();
             IDmain = new Label();
@@ -52,9 +51,9 @@
             pictureBoxmain = new PictureBox();
             CDTIlogo = new PictureBox();
             groupBoxfingerenroll = new GroupBox();
-            buttonlefthand = new Button();
-            buttonrighthand = new Button();
             buttonsave = new Button();
+            buttonrighthand = new Button();
+            buttonlefthand = new Button();
             groupBoxinformation.SuspendLayout();
             groupBoxprofile.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxmain).BeginInit();
@@ -76,7 +75,6 @@
             groupBoxinformation.Controls.Add(textBoxphone);
             groupBoxinformation.Controls.Add(textBoxsurname);
             groupBoxinformation.Controls.Add(textBoxname);
-            groupBoxinformation.Controls.Add(linkLabel1);
             groupBoxinformation.Controls.Add(labelsurname);
             groupBoxinformation.Controls.Add(labelname);
             groupBoxinformation.Controls.Add(IDmain);
@@ -101,7 +99,7 @@
             // comboBoxgender
             // 
             comboBoxgender.FormattingEnabled = true;
-            comboBoxgender.Location = new Point(81, 211);
+            comboBoxgender.Location = new Point(107, 205);
             comboBoxgender.Name = "comboBoxgender";
             comboBoxgender.Size = new Size(79, 23);
             comboBoxgender.TabIndex = 16;
@@ -109,7 +107,7 @@
             // labelgender
             // 
             labelgender.AutoSize = true;
-            labelgender.Location = new Point(30, 214);
+            labelgender.Location = new Point(56, 208);
             labelgender.Name = "labelgender";
             labelgender.Size = new Size(45, 15);
             labelgender.TabIndex = 15;
@@ -118,7 +116,7 @@
             // labelbirth
             // 
             labelbirth.AutoSize = true;
-            labelbirth.Location = new Point(43, 185);
+            labelbirth.Location = new Point(69, 179);
             labelbirth.Name = "labelbirth";
             labelbirth.Size = new Size(32, 15);
             labelbirth.TabIndex = 14;
@@ -126,7 +124,7 @@
             // 
             // textBoxbirth
             // 
-            textBoxbirth.Location = new Point(81, 182);
+            textBoxbirth.Location = new Point(107, 176);
             textBoxbirth.Name = "textBoxbirth";
             textBoxbirth.Size = new Size(201, 23);
             textBoxbirth.TabIndex = 11;
@@ -134,7 +132,7 @@
             // labelemail
             // 
             labelemail.AutoSize = true;
-            labelemail.Location = new Point(39, 156);
+            labelemail.Location = new Point(65, 150);
             labelemail.Name = "labelemail";
             labelemail.Size = new Size(36, 15);
             labelemail.TabIndex = 10;
@@ -143,7 +141,7 @@
             // labelphone
             // 
             labelphone.AutoSize = true;
-            labelphone.Location = new Point(34, 127);
+            labelphone.Location = new Point(60, 121);
             labelphone.Name = "labelphone";
             labelphone.Size = new Size(41, 15);
             labelphone.TabIndex = 9;
@@ -151,47 +149,36 @@
             // 
             // textBoxemail
             // 
-            textBoxemail.Location = new Point(81, 153);
+            textBoxemail.Location = new Point(107, 147);
             textBoxemail.Name = "textBoxemail";
             textBoxemail.Size = new Size(201, 23);
             textBoxemail.TabIndex = 8;
             // 
             // textBoxphone
             // 
-            textBoxphone.Location = new Point(81, 124);
+            textBoxphone.Location = new Point(107, 118);
             textBoxphone.Name = "textBoxphone";
             textBoxphone.Size = new Size(201, 23);
             textBoxphone.TabIndex = 7;
             // 
             // textBoxsurname
             // 
-            textBoxsurname.Location = new Point(81, 95);
+            textBoxsurname.Location = new Point(107, 89);
             textBoxsurname.Name = "textBoxsurname";
             textBoxsurname.Size = new Size(201, 23);
             textBoxsurname.TabIndex = 6;
             // 
             // textBoxname
             // 
-            textBoxname.Location = new Point(81, 66);
+            textBoxname.Location = new Point(107, 60);
             textBoxname.Name = "textBoxname";
             textBoxname.Size = new Size(201, 23);
             textBoxname.TabIndex = 5;
             // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.LinkColor = SystemColors.MenuHighlight;
-            linkLabel1.Location = new Point(288, 40);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(57, 15);
-            linkLabel1.TabIndex = 4;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "[ VERIFY ]";
-            // 
             // labelsurname
             // 
             labelsurname.AutoSize = true;
-            labelsurname.Location = new Point(21, 98);
+            labelsurname.Location = new Point(47, 92);
             labelsurname.Name = "labelsurname";
             labelsurname.Size = new Size(54, 15);
             labelsurname.TabIndex = 3;
@@ -200,7 +187,7 @@
             // labelname
             // 
             labelname.AutoSize = true;
-            labelname.Location = new Point(36, 69);
+            labelname.Location = new Point(62, 63);
             labelname.Name = "labelname";
             labelname.Size = new Size(39, 15);
             labelname.TabIndex = 2;
@@ -209,7 +196,7 @@
             // IDmain
             // 
             IDmain.AutoSize = true;
-            IDmain.Location = new Point(54, 40);
+            IDmain.Location = new Point(80, 34);
             IDmain.Name = "IDmain";
             IDmain.Size = new Size(21, 15);
             IDmain.TabIndex = 1;
@@ -218,7 +205,7 @@
             // 
             // textBoxid
             // 
-            textBoxid.Location = new Point(81, 37);
+            textBoxid.Location = new Point(107, 31);
             textBoxid.Name = "textBoxid";
             textBoxid.Size = new Size(201, 23);
             textBoxid.TabIndex = 0;
@@ -240,7 +227,7 @@
             // 
             buttonclrpic.BackColor = Color.FromArgb(255, 192, 192);
             buttonclrpic.ForeColor = Color.Black;
-            buttonclrpic.Location = new Point(85, 232);
+            buttonclrpic.Location = new Point(85, 229);
             buttonclrpic.Name = "buttonclrpic";
             buttonclrpic.Size = new Size(75, 23);
             buttonclrpic.TabIndex = 20;
@@ -249,7 +236,7 @@
             // 
             // buttonuploadprofile
             // 
-            buttonuploadprofile.Location = new Point(76, 200);
+            buttonuploadprofile.Location = new Point(76, 195);
             buttonuploadprofile.Name = "buttonuploadprofile";
             buttonuploadprofile.Size = new Size(94, 26);
             buttonuploadprofile.TabIndex = 1;
@@ -286,32 +273,32 @@
             groupBoxfingerenroll.TabStop = false;
             groupBoxfingerenroll.Text = "Fingerprint Enrollment";
             // 
-            // buttonlefthand
+            // buttonsave
             // 
-            buttonlefthand.Location = new Point(43, 31);
-            buttonlefthand.Name = "buttonlefthand";
-            buttonlefthand.Size = new Size(140, 74);
-            buttonlefthand.TabIndex = 0;
-            buttonlefthand.Text = "Left Hand";
-            buttonlefthand.UseVisualStyleBackColor = true;
+            buttonsave.Location = new Point(144, 117);
+            buttonsave.Name = "buttonsave";
+            buttonsave.Size = new Size(75, 23);
+            buttonsave.TabIndex = 2;
+            buttonsave.Text = "Save";
+            buttonsave.UseVisualStyleBackColor = true;
             // 
             // buttonrighthand
             // 
-            buttonrighthand.Location = new Point(189, 31);
+            buttonrighthand.Location = new Point(192, 31);
             buttonrighthand.Name = "buttonrighthand";
             buttonrighthand.Size = new Size(140, 74);
             buttonrighthand.TabIndex = 1;
             buttonrighthand.Text = "Right Hand";
             buttonrighthand.UseVisualStyleBackColor = true;
             // 
-            // buttonsave
+            // buttonlefthand
             // 
-            buttonsave.Location = new Point(148, 116);
-            buttonsave.Name = "buttonsave";
-            buttonsave.Size = new Size(75, 23);
-            buttonsave.TabIndex = 2;
-            buttonsave.Text = "Save";
-            buttonsave.UseVisualStyleBackColor = true;
+            buttonlefthand.Location = new Point(45, 31);
+            buttonlefthand.Name = "buttonlefthand";
+            buttonlefthand.Size = new Size(140, 74);
+            buttonlefthand.TabIndex = 0;
+            buttonlefthand.Text = "Left Hand";
+            buttonlefthand.UseVisualStyleBackColor = true;
             // 
             // Formmain
             // 
@@ -337,7 +324,6 @@
         #endregion
 
         private GroupBox groupBoxinformation;
-        private LinkLabel linkLabel1;
         private Label labelsurname;
         private Label labelname;
         private Label IDmain;

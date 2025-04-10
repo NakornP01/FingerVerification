@@ -15,3 +15,6 @@ C:\Users\nakor\source\repos\Enrollmenttest01\Enrollmenttest01\obj\Debug\net8.0-w
 C:\Users\nakor\source\repos\Enrollmenttest01\Enrollmenttest01\obj\Debug\net8.0-windows\Enrollmenttest01.pdb
 C:\Users\nakor\source\repos\Enrollmenttest01\Enrollmenttest01\obj\Debug\net8.0-windows\Enrollmenttest01.genruntimeconfig.cache
 C:\Users\nakor\source\repos\Enrollmenttest01\Enrollmenttest01\obj\Debug\net8.0-windows\ref\Enrollmenttest01.dll
+C:\Users\nakor\source\repos\Enrollmenttest01\Enrollmenttest01\obj\Debug\net8.0-windows\Enrollmenttest01.Formlefthand.resources
+C:\Users\nakor\source\repos\Enrollmenttest01\Enrollmenttest01\obj\Debug\net8.0-windows\Enrollmenttest01.Formleftthumb.resources
+C:\Users\nakor\source\repos\Enrollmenttest01\Enrollmenttest01\obj\Debug\net8.0-windows\Enrollmenttest01.Formrighthand.resources
